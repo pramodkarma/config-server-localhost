@@ -9,3 +9,7 @@ eureka:
     fetchRegistry: false
   server:
     enableSelfPreservation: false
+
+  ribbon:
+    eureka:
+      enabled: true
