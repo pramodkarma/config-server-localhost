@@ -48,4 +48,8 @@ logging:
     enabled: true
   okhttp:
     enabled: true
+
+  ribbon:
+    eureka:
+      enabled: true
         
