@@ -42,4 +42,10 @@ logging:
            descriptor:
               sql:
                 BasicBinder: TRACE
+
+  feign:
+  hystrix:
+    enabled: true
+  okhttp:
+    enabled: true
         
