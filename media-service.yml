@@ -37,6 +37,16 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:1111/eureka/
 
+logging:
+  level:
+    org:
+      hibernate:
+         SQL : DEBUG
+         type:
+           descriptor:
+              sql:
+                BasicBinder: TRACE
+
   feign:
   hystrix:
     enabled: true
