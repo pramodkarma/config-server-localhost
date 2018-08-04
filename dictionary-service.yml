@@ -17,7 +17,9 @@ spring:
   application:
     name: dictionary-service
 
-
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
   #contextPath: /resource
 security:
   oauth2:

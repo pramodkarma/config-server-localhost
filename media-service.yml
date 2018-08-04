@@ -17,6 +17,10 @@ spring:
     password:
   application:
     name: media-service
+    
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
 
   http:
     multipart:

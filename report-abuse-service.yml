@@ -17,6 +17,10 @@ spring:
     password:
   application:
     name: report-abuse-service
+    
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
 
 
   #contextPath: /resource
