@@ -1,6 +1,3 @@
-
-
-
 server:
   port: ${PORT:9001}
   
@@ -19,6 +16,13 @@ spring:
     password:
   application:
     name: member-service
+
+
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+
+
 
   #contextPath: /resource
 security:
@@ -48,6 +52,3 @@ logging:
     enabled: true
   okhttp:
     enabled: true
-
-
-        
