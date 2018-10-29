@@ -17,6 +17,14 @@ spring:
     password:
   application:
     name: media-service
+
+  cloud:
+    azure:
+      credential-file-path: my.azureauth  
+      resource-group: blobstorage    
+      region: Central India
+      storage:
+        account: blobstorageins
     
   jackson:
     serialization:
@@ -58,10 +66,4 @@ logging:
     enabled: true
       
   
-  cloud:
-    azure:
-      credential-file-path: my.azureauth  
-      resource-group: blobstorage    
-      region: Central India
-      storage:
-        account: blobstorageins
+  
