@@ -25,15 +25,17 @@ spring:
       region: Central India
       storage:
         account: blobstorageins
-    
-  jackson:
-    serialization:
-      fail-on-empty-beans: false
-
+  
   http:
     multipart:
       max-file-size: 500MB
       max-request-size: 500MB
+
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+
+  
 
 
   #contextPath: /resource
