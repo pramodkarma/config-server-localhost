@@ -17,6 +17,14 @@ spring:
   application:
     name: dictionary-service
 
+  cloud:
+    azure:
+      credential-file-path: my.azureauth  
+      resource-group: blobstorage    
+      region: Central India
+      storage:
+        account: blobstorageins
+
   jackson:
     serialization:
       fail-on-empty-beans: false
