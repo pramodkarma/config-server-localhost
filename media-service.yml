@@ -21,10 +21,10 @@ spring:
   cloud:
     azure:
       credential-file-path: my.azureauth  
-      resource-group: blobstorage    
+      resource-group: ikarma
       region: Central India
       storage:
-        account: blobstorageins
+        account: ikarmablob
   
   http:
     multipart:
