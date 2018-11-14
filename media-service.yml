@@ -29,8 +29,8 @@ spring:
   http:
     multipart:
       enabled: true
-      max-file-size: 20MB
-      max-request-size: 20MB
+      max-file-size: 500MB
+      max-request-size: 500MB
 
   jackson:
     serialization:
@@ -63,6 +63,12 @@ logging:
               sql:
                 BasicBinder: TRACE
 
+    org.springframework.web: ERROR
+    com.mkyong: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file: G://member.log
   feign:
   hystrix:
     enabled: true
