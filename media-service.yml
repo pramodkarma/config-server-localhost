@@ -52,6 +52,7 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:1111/eureka/
 
+
 logging:
   level:
     org:
