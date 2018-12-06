@@ -2,7 +2,10 @@
 server:
   port: ${PORT:9005}
   
-
+ribbon:
+  http:
+    client:
+      enabled: true   
 spring:
   jpa:
     generate-ddl: true
@@ -74,6 +77,6 @@ logging:
     enabled: true
   okhttp:
     enabled: true
-      
+
   
   
