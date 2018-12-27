@@ -17,6 +17,13 @@ spring:
   application:
     name: member-service
 
+  cloud:
+    azure:
+      credential-file-path: my.azureauth  
+      resource-group: Prod_Inspirati
+      region: Central India
+      storage:
+        account: inspiratiblob
   http:
     multipart:
       enabled: true

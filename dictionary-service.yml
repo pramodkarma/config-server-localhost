@@ -20,10 +20,10 @@ spring:
   cloud:
     azure:
       credential-file-path: my.azureauth  
-      resource-group: ikarma    
+      resource-group: Prod_Inspirati
       region: Central India
       storage:
-        account: ikarmablob
+        account: inspiratiblob
 
   jackson:
     serialization:
