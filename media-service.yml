@@ -42,10 +42,14 @@ spring:
 member-service:
   ribbon:
     listOfServers: localhost:9001
+    ReadTimeout: 60000
+    ConnectTimeout: 60000
 
 userdetails-service:
   ribbon:
     listOfServers: localhost:9003
+    ReadTimeout: 60000
+    ConnectTimeout: 60000
 
 
   #contextPath: /resource
