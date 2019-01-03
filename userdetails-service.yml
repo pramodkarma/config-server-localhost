@@ -32,7 +32,8 @@ ribbon:
   eureka:
     enabled: true
   MaxAutoRetries: 0
-  MaxAutoRetriesNextServer: 0
+  MaxAutoRetriesNextServer: 2
+  OkToRetryOnAllOperations: true
   ReadTimeout: 60000
   ConnectTimeout: 60000
 
