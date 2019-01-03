@@ -42,7 +42,9 @@ security:
     resource:
       userInfoUri: http://localhost:8000/user
   
-
+media-service:
+  ribbon:
+    listOfServers: localhost:9005
 
 eureka:
   client:

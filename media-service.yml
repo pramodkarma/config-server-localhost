@@ -39,7 +39,13 @@ spring:
     serialization:
       fail-on-empty-beans: false
 
-  
+member-service:
+  ribbon:
+    listOfServers: localhost:9001
+
+userdetails-service:
+  ribbon:
+    listOfServers: localhost:9003
 
 
   #contextPath: /resource
