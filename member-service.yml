@@ -42,11 +42,12 @@ security:
     resource:
       userInfoUri: http://localhost:8000/user
   
-media-service:
-  ribbon:
-    listOfServers: localhost:9005
-    ReadTimeout: 60000
-    ConnectTimeout: 60000
+ribbon:
+  eureka:
+    enabled: true
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 0
+  ReadTimeout: 60000
 
 eureka:
   client:

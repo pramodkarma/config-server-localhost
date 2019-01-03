@@ -39,17 +39,12 @@ spring:
     serialization:
       fail-on-empty-beans: false
 
-member-service:
-  ribbon:
-    listOfServers: localhost:9001
-    ReadTimeout: 60000
-    ConnectTimeout: 60000
-
-userdetails-service:
-  ribbon:
-    listOfServers: localhost:9003
-    ReadTimeout: 60000
-    ConnectTimeout: 60000
+ribbon:
+  eureka:
+    enabled: true
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 0
+  ReadTimeout: 60000
 
 
   #contextPath: /resource
