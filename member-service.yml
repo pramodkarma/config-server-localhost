@@ -48,6 +48,7 @@ ribbon:
   MaxAutoRetries: 0
   MaxAutoRetriesNextServer: 0
   ReadTimeout: 60000
+  ConnectTimeout: 60000
 
 eureka:
   client:
