@@ -51,6 +51,10 @@ ribbon:
   ReadTimeout: 60000
   ConnectTimeout: 60000
 
+media-service:
+  ribbon:
+    listOfServers: http://localhost:9005
+    
 eureka:
   client:
     serviceUrl:
