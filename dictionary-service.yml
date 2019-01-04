@@ -47,6 +47,14 @@ media-service:
   ribbon:
     listOfServers: http://localhost:9005
 
+member-service:
+  ribbon:
+    listOfServers: http://localhost:9001
+
+userdetails-service:
+  ribbon:
+    listOfServers: http://localhost:9003
+
 eureka:
   client:
     serviceUrl:
