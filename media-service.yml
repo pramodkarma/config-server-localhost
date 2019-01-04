@@ -52,6 +52,10 @@ userdetails-service:
   ribbon:
     listOfServers: http://localhost:9003
 
+member-service:
+  ribbon:
+    listOfServers: http://localhost:9001
+
   #contextPath: /resource
 security:
   oauth2:
