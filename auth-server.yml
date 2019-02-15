@@ -29,6 +29,12 @@ spring:
     password: P@ssw0rd@123
   application:
     name: auth-server
+  cache:
+    type: redis
+  redis:
+    host: http://10.145.81.119
+    port: 6379
+    password: kAOCrLp2ujcB4yLdX306sVxyPL8oD7W/YiRsBHWUn850WVdAz2e+KI59i1kVuV03NoXOSb33+KRQiCKK
 
   jackson:
     serialization:
