@@ -34,6 +34,12 @@ spring:
     serialization:
       fail-on-empty-beans: false
 
+  cache:
+    type: redis
+  redis:
+    host: localhost
+    port: 6379
+
 
 
   #contextPath: /resource
